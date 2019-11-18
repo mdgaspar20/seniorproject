@@ -1,0 +1,17 @@
+h1{
+  margin-top: 200px;
+  color: White;
+  text-align: center;
+}
+.container{
+margin-top: 200px;
+background-color: grey;
+width: 1000px
+}
+
+body{
+  background-color: grey;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgTL0KrK8sWv_WFrh0XpcfkMlSLGKHWa0JkrEy4SWdpUEHfL41hA);
+  background-repeat: no-repeat;
+  background-size: 1700px 280px ;
+}
