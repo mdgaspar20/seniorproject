@@ -1,0 +1,42 @@
+h1{
+  color: green;
+}
+.container{
+  margin-top: 0px;
+  margin-left: 500px;
+  border: solid grey 2px;
+  width: 600px;
+  height: 700px;
+  text-align: left;
+
+}
+body{
+
+}
+.input-group{
+  background-color: #4CAF50;
+  color: black;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+#button1{
+  margin-left: 200px;
+  margin-bottom: 50px;
+  padding: 10px 25px;
+  background-color: white;
+  color: #4CAF50;
+  text-align: center;
+}
+#button2{
+  padding: 10px 25px;
+  background-color: white;
+  color: #4CAF50;
+  text-align: center;
+}
+
+#button3{
+  padding: 10px 25px;
+  background-color: white;
+  color: #4CAF50;
+  text-align: center;
+}

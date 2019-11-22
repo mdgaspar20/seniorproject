@@ -1,5 +1,9 @@
-<?php
-session_start();
-session_destroy();
-header('location:capstone_project_home.php');
-?>
+	<?php
+	session_start();
+	session_unset();
+	session_destroy();
+
+	header('location:capstone_home.php?action=login');
+	exit();
+
+	?>

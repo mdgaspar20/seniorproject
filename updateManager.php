@@ -197,7 +197,7 @@
 		<label>Current Employee's Role</label>
 		<p>
 		 <?php echo $role; ?>
-		</p>
+		</p>  
 							</div>	 
 		<div class="form-group <?php echo(!empty($role_e)) ? 'has-error' : ''; ?>">
 						<label>Select Employee's Role</label>
@@ -210,7 +210,7 @@
 							</div>
 							<input type="hidden" name="EmployeeID" value="<?php echo $EmployeeID; ?>"/>
 							<input type="submit" class="btn btn-primary" value="Submit">
-							<a href="view.php" class="btn btn-default">Cancel</a>
+							<a href="viewManager.php" class="btn btn-default">Cancel</a>
 						</form>
 					</div>
 				</div>        

@@ -20,7 +20,7 @@
 		</style>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$('[data-toggle="tooltip"]').tooltip();   
+				$('[data-toggle="tooltip"]').tooltip();
 			});
 		</script>
 	</head>
@@ -31,8 +31,7 @@
 	<div class="col-md-12">
 	<div class="page-header clearfix">
 	<h2 class="pull-left">Employees Details</h2>
-	<a href="addEmployee.php" class="btn btn-success pull-right">Add New Employee</a> 
-	<a href="admin.php" class="btn btn-success pull-right">Home</a> 
+	<a href="manager.php" class="btn btn-success pull-right">Home</a>
 	<a href="logout.php" class="btn btn-success pull-right">Logout</a>
 
 	   </div>
@@ -62,13 +61,12 @@
 					  echo "<td>" . $row['EmployeeLogin'] . "</td>";
 					  echo "<td>" . $row['Email'] . "</td>";
 					  echo "<td>";
-		
-		echo "<a href='update.php?EmployeeID=". $row['EmployeeID'] ."' title='Update Record' data-toggle='tooltip'><span class='glyphicon glyphicon-pencil'></span></a>";
-		echo "<a href='delete.php?EmployeeID=". $row['EmployeeID'] ."' title='Delete Record' data-toggle='tooltip'><span class='glyphicon glyphicon-trash'></span></a>";
+
+		echo "<a href='updateManager.php?EmployeeID=". $row['EmployeeID'] ."' title='Update Record' data-toggle='tooltip'><span class='glyphicon glyphicon-pencil'></span></a>";
 					echo "</td>";
 					   echo "</tr>";
 		  }
-				echo "</tbody>";                            
+				echo "</tbody>";
 				  echo "</table>";
 		mysqli_free_result($result);
 			} else{
@@ -80,7 +78,7 @@
 		 mysqli_close($conn);
 	   ?>
 	</div>
-	</div>        
+	</div>
 	</div>
 	</div>
 	</body>

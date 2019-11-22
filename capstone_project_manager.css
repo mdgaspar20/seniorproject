@@ -1,7 +1,36 @@
-.container{
-  border: 2px solid grey;
-  width: 500px;
-  height: 300px;
+h1{
+  color: green;
   text-align: center;
+}
+.container{
+margin-top: 300px;
+margin-right: 500px;
+background-image:url(https://www.featurepics.com/StockImage/20070306/water-texture-light-blue-turquoise-color-stock-picture-242367.jpg);
+width: 1000px;
+height: 500px;
+}
 
+body{
+  background-color: grey;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBRs8E6fXrxo_GGrf_k4iSPq3ug9ZGR8_-KbruvVxLthBJboR8dA&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#button1 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 24px;
+  padding: 15px 20px;
+}
+#button2 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 24px;
+  padding: 15px 25px;
+}
+#button3 {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
 }
